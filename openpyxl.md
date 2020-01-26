@@ -30,10 +30,7 @@ ws = wb["sheet_name"]
 
 ws_copy = wb.copy_worksheet(sheet_name)
 
-# 注意，属性之类都会拷贝上，但是图表不会。
-# 不能在wb之间拷贝sheet
-
-
+注意，属性之类都会拷贝上，但是图表不会。不能在wb之间拷贝sheet
 
 ### 创建
 
